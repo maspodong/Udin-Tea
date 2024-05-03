@@ -1,0 +1,123 @@
+/* CSS for body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(gambarweb/pexels-freestockpro-322461.jpg); /* Ganti 'background-image.jpg' dengan URL gambar latar belakang Anda */
+  background-size: cover; /* Mengatur gambar latar belakang agar mencakup seluruh area halaman */
+  background-position: center; /* Memposisikan gambar latar belakang di tengah halaman */
+  background-attachment: fixed;
+}
+
+/* CSS for header */
+header {
+  background-color: #013725;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* CSS for the "Selamat Datang di Udin Tea" section */
+section#home {
+  text-align: center;
+  padding: 100px 0; /* Adjust the padding to move the section higher up */
+}
+
+section#kontak {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Rest of the CSS styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  text-align: center;
+  padding: 150px 0;
+}
+
+section h2 {
+  font-size: 36px;
+  color: white;
+}
+
+section p {
+  line-height: 1.5;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 1px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #024228;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005050;
+}
+
+/* Product Styles */
+.produk-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.produk {
+  width: 220px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.produk img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.produk h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.produk p {
+  color: #666;
+}
+
+footer {
+  background-color: #01331f;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
